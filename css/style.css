@@ -66,23 +66,55 @@ form{
 .reco{
     text-align: center;
 }
-@media (max-width: 1024px){
+@media (max-width: 680px){
     img{
-        height: 300px;
         width: 100%;
     }
     .video{
         width: 100%;
     }
 }
-@media (min-width: 470px){
+@media (min-width: 470px) and (max-width: 680px){
     img{
         height: 390px;
     }
 }
 .desclomo{
     color: white;
-    background-color: black;
+    font-weight: bold;
+}
+.desclomo h3{
+    text-decoration: underline solid black;
+}
+@media (min-width: 921px){
+    .desclomo{
+        color: white;
+        background-color: black;
+    }
+}
+.desclomos{
+    color: white;
+    font-weight: bold;
+}
+.desclomos h3{
+    text-decoration: underline solid black;
+}
+@media (min-width: 700px){
+    .desclomos{
+        color: white;
+        background-color: black;
+    }
+}
+.botones{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.botones a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
