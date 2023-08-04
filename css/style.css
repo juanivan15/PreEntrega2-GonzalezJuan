@@ -6,13 +6,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
 
 body{
-    background-color:rgb(68, 44, 2);
+    background-color:black;
     align-items: center;
 }
 header{
    font-weight: bold;
    color: white;
-   border: 5px rgb(68, 44, 2);
+   border-bottom: white solid;
 }
 h1{
     color: white;
@@ -38,6 +38,7 @@ footer{
     color: white;
     background-color: black;
     text-align: center;
+    border-top: solid white;
 }
 .navegacion{
     display: inline-block;
@@ -49,12 +50,6 @@ a{
     background-color: black;
     width: 50px;
     height: 50px;
-}
-.variedad{
-    text-decoration: underline solid;
-}
-.titulovariedad{
-    text-decoration: underline;
 }
 .button{
     font-size: 15px;
