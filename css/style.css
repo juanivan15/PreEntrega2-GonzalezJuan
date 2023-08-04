@@ -20,6 +20,7 @@ h1{
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: bolder;
+    text-decoration: underline solid yellow;
 }
 .subprinc{
     text-align: center;
@@ -32,13 +33,6 @@ main{
 img{
     height: 400px;
     width: 600px;
-}
-
-footer{
-    color: white;
-    background-color: black;
-    text-align: center;
-    border-top: solid white;
 }
 .navegacion{
     display: inline-block;
@@ -111,7 +105,21 @@ form{
     text-decoration: none;
     font-weight: bold;
 }
-
+.btnaqui{
+    color: white;
+    text-decoration: underline solid white;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    border-top: solid white;
+}
+.mensajeimp{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 
 
