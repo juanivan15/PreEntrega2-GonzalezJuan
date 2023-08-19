@@ -20,34 +20,30 @@ h1 {
   text-decoration: underline solid yellow;
 }
 
-.subprinc {
+.subPrinc {
   text-align: center;
   color: white;
 }
 
-.reco {
-  text-align: center;
-}
-
-.desclomo {
+.descLomo {
   color: white;
   font-weight: bold;
 }
 
-.desclomo h3 {
+.descLomo h3 {
   text-decoration: underline solid black;
 }
 
-.desclomos {
+.descLomos {
   color: white;
   font-weight: bold;
 }
 
-.desclomos h3 {
+.descLomos h3 {
   text-decoration: underline solid black;
 }
 
-.mensajeimp {
+.mensajeImp {
   color: white;
   text-align: center;
   font-size: 1.5rem;
@@ -69,7 +65,7 @@ img {
   height: 50px;
 }
 
-.logocon {
+.logoCon {
   background-color: white;
   width: 50px;
   height: 50px;
@@ -106,8 +102,8 @@ a {
   font-weight: bold;
 }
 
-.btnaqui {
-  color: black;
+.btnAqui {
+  color: white;
   text-decoration: underline solid white;
 }
 
@@ -139,13 +135,13 @@ footer {
   }
 }
 @media (min-width: 921px) {
-  .desclomo {
+  .descLomo {
     color: white;
     background-color: black;
   }
 }
 @media (min-width: 700px) {
-  .desclomos {
+  .descLomos {
     color: white;
     background-color: black;
   }
