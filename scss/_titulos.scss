@@ -1,0 +1,38 @@
+h1{
+    color: $colorletras;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: $subrayado;
+}
+.subprinc{
+    text-align: center;
+    color: $colorletras;
+}
+.reco{
+    text-align: center;
+}
+.desclomo{
+    color: $colorletras;
+    font-weight: bold;
+}
+.desclomo{
+    h3{
+        @include h3deco;
+    }
+}
+.desclomos{
+    color: $colorletras;
+    font-weight: bold;
+}
+.desclomos {
+    h3{
+        @include h3deco;
+    }
+}
+.mensajeimp{
+    color: $colorletras;
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -1,127 +1,167 @@
-*{
-    margin: 0;
-    padding: 0;
+/* General */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
+header {
+  font-weight: bold;
+  color: white;
+  border-bottom: white solid;
+}
 
-body{
-    background-color:black;
-    align-items: center;
+h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-decoration: underline solid yellow;
 }
-header{
-   font-weight: bold;
-   color: white;
-   border-bottom: white solid;
+
+.subprinc {
+  text-align: center;
+  color: white;
 }
-h1{
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: bolder;
-    text-decoration: underline solid yellow;
+
+.reco {
+  text-align: center;
 }
-.subprinc{
-    text-align: center;
-    color: white;
+
+.desclomo {
+  color: white;
+  font-weight: bold;
 }
-main{
-    color: white;
-    font-weight: bolder;
+
+.desclomo h3 {
+  text-decoration: underline solid black;
 }
-img{
+
+.desclomos {
+  color: white;
+  font-weight: bold;
+}
+
+.desclomos h3 {
+  text-decoration: underline solid black;
+}
+
+.mensajeimp {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.imagenesInicio {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 400px;
+  width: 600px;
+}
+
+.logo {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+}
+
+.logocon {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+}
+
+.navegacion {
+  display: inline-block;
+}
+
+a {
+  color: white;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  font-size: 15px;
+  text-decoration: underline;
+}
+
+.botones {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.botones a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btnaqui {
+  color: black;
+  text-decoration: underline solid white;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  text-align: center;
+  border-top: solid white;
+}
+
+.navegacion .logo:hover {
+  width: 60px;
+  height: 60px;
+  transition: 1s;
+}
+
+@media (max-width: 680px) {
+  img {
+    width: 90%;
+    height: 300px;
+  }
+  .video {
+    width: 100%;
+  }
+}
+@media (min-width: 470px) and (max-width: 680px) {
+  img {
     height: 400px;
-    width: 600px;
+  }
 }
-.navegacion{
-    display: inline-block;
-}
-a{
-    color: white;
-}
-.logo{
-    background-color: black;
-    width: 50px;
-    height: 50px;
-}
-.button{
-    font-size: 15px;
-    text-decoration: underline;
-}
-form{
-    text-align: center;
-}
-.reco{
-    text-align: center;
-}
-@media (max-width: 680px){
-    img{
-        width: 100%;
-    }
-    .video{
-        width: 100%;
-    }
-}
-@media (min-width: 470px) and (max-width: 680px){
-    img{
-        height: 390px;
-    }
-}
-.desclomo{
-    color: white;
-    font-weight: bold;
-}
-.desclomo h3{
-    text-decoration: underline solid black;
-}
-@media (min-width: 921px){
-    .desclomo{
-        color: white;
-        background-color: black;
-    }
-}
-.desclomos{
-    color: white;
-    font-weight: bold;
-}
-.desclomos h3{
-    text-decoration: underline solid black;
-}
-@media (min-width: 700px){
-    .desclomos{
-        color: white;
-        background-color: black;
-    }
-}
-.botones{
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-.botones a{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-}
-.btnaqui{
-    color: white;
-    text-decoration: underline solid white;
-}
-footer{
+@media (min-width: 921px) {
+  .desclomo {
     color: white;
     background-color: black;
-    text-align: center;
-    border-top: solid white;
+  }
 }
-.mensajeimp{
+@media (min-width: 700px) {
+  .desclomos {
     color: white;
-    text-align: center;
-    font-size: 1.5rem;
+    background-color: black;
+  }
+}
+body {
+  background-color: black;
+  align-items: center;
 }
 
+main {
+  color: white;
+  font-weight: bolder;
+}
 
+form {
+  text-align: center;
+}
 
-
-
+/*# sourceMappingURL=style.css.map */
