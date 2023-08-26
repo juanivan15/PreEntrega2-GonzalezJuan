@@ -1,29 +1,35 @@
-h1{
-   @include titulo;
+h1 {
+    @include titulo;
 }
-.subPrinc{
+
+.subPrinc {
     text-align: center;
     color: $colorletras;
 }
-.descLomo{
+
+.descLomo {
     color: $colorletras;
     font-weight: bold;
 }
-.descLomo{
-    h3{
+
+.descLomo {
+    h3 {
         @include h3deco;
     }
 }
-.descLomos{
-    color: $colorletras;
-    font-weight: bold;
-}
+
 .descLomos {
-    h3{
+    color: $colorletras;
+    font-weight: bold;
+}
+
+.descLomos {
+    h3 {
         @include h3deco;
     }
 }
-.mensajeImp{
+
+.mensajeImp {
     color: $colorletras;
     text-align: center;
     font-size: 1.5rem;

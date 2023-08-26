@@ -1,26 +1,29 @@
-@media (max-width: 680px){
-    img{
+@media (max-width: 680px) {
+    img {
         width: 90%;
         height: 300px;
     }
-    .video{
+
+    .video {
         width: 100%;
     }
 }
-@media (min-width: 470px) and (max-width: 680px){
-    img{
+
+@media (min-width: 470px) and (max-width: 680px) {
+    img {
         height: 400px;
     }
 }
 
-@media (min-width: 921px){
-    .descLomo{
+@media (min-width: 921px) {
+    .descLomo {
         color: $colorletras;
         background-color: $colorfondo;
     }
 }
-@media (min-width: 700px){
-    .descLomos{
+
+@media (min-width: 700px) {
+    .descLomos {
         color: $colorletras;
         background-color: $colorfondo;
     }

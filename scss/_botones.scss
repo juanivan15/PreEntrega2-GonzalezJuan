@@ -1,21 +1,24 @@
-.button{
+.button {
     font-size: 15px;
     text-decoration: underline;
 }
-.botones{
+
+.botones {
     background-color: $colorfondobtn;
     color: $colorletrabtn;
     font-weight: bold;
     text-decoration: none;
 }
-.botones{
-     a{
-    color: $colorletrabtn;
-    text-decoration: none;
-    font-weight: bold;
+
+.botones {
+    a {
+        color: $colorletrabtn;
+        text-decoration: none;
+        font-weight: bold;
     }
 }
-.btnAqui{
+
+.btnAqui {
     color: $colorletras;
     text-decoration: underline solid white;
 }
