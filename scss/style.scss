@@ -6,18 +6,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,700&display=swap');
 
-@import "variables", "mixin", "header", "titulos", "imagenes", "navegacion", "botones", "footer", "animaciones", "medias";
+@import "variables", "mixin", "body", "form", "header", "titulos", "imagenes", "navegacion", "botones", "footer", "animaciones", "medias";
 
-body{
-    background-color:$colorfondo;
-    align-items: center;
-}
-main{
-    color: $colorletras;
-    font-weight: bolder;
-}
-form{
-    text-align: center;
-}
 
 
